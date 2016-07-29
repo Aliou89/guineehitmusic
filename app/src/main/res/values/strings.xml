@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Guinee HIT Music</string>
+    <string name="action_settings">Options</string>
+    <string name="main_url">http://www.guineehitmusique.com</string>
+    <string name="error_page_loc">file:///android_asset/error_page.html</string>
+    <string name="image_type">image/png</string>
+    <string name="splash_bottom_text" >Portal N°1 de la Musiques Guinéenne</string>
+    <string name="splash_top_text">Guinee HIT Music</string>
+    <string name="notif_checkBox_text">Recieve Push Notifications</string>
+    <string name="dialog_positive_button">OK</string>
+    <string name="dialog_negative_button">Cancel</string>
+    <string name="NOTIF_TOPIC">guineehitmusic</string>
+    <string name="fb_share_url">https://www.facebook.com/guineehitmusic</string>
+    <string name="yt_share_url">http://www.youtube.com/channel/UC9iqcJnLqbEF5ko47dpj_aw </string>
+    <string name="tw_share_url">https://twitter.com/guineehitmusic</string>
+    <string name="ins_button_url">https://www.instagram.com/guineehit/?hl=en</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.guineehitmusique.com.guineehitmusic.HomeActivity">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notif_checkBox_text"
+        android:id="@+id/notif_chceckBox"
+        android:checked="true"
+        android:layout_margin="10dp" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:src="@drawable/fb_like_button"
+        android:id="@+id/fb_share_button"
+        android:layout_marginTop="6dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/background_light"
+        android:scaleType="fitStart"
+        android:layout_marginLeft="30dp" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:src="@drawable/twitter_follow_button"
+        android:id="@+id/twitter_share_button"
+        android:background="@android:color/background_light"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitStart"
+        android:layout_marginLeft="25dp" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:src="@drawable/youtube_subscribe_button"
+        android:background="@android:color/background_light"
+        android:id="@+id/youtube_subscribe_button"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitStart"
+        android:layout_marginLeft="20dp" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:src="@drawable/instagram_button"
+        android:background="@android:color/background_light"
+        android:id="@+id/instagram_button"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitStart"
+        android:layout_marginLeft="25dp" />
+
+</LinearLayout>
+
+
+    <!--android:background="@color/abc_background_cache_hint_selector_material_light"-->

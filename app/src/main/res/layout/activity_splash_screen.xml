@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:background="@drawable/splash_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/splash_bottom_text"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/splash_top_text"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/splash_image"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
